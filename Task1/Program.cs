@@ -16,7 +16,6 @@
 // 369, 458, 732, 105, 847, 621, 283, 594, 176, 420, 893, 642, 719, 536, 918
 // 287, 615, 943, 752, 381, 564, 129, 476, 648, 305, 814, 967, 204, 539, 671, 832, 198, 426, 753, 629
 
-// ТАК И НЕ ПРОШЁЛ АВТОТЕСТ - ОСТАЛАСЬ 1 ПОПЫТКА
 
 int[] array = {124, 378, 593, 821, 456};
 PrintArray(array);
@@ -27,7 +26,7 @@ static void PrintArray(int[] array)
 Console.Write($"{array[0]}");
 for (int i=1; i<array.Length; i++)
     {
-        Console.Write($"\t{array[i]}"); //Console.Write($"{String.Join("\t",array[i])}"); //Console.Write(array[i]+"\t");
+        Console.Write($"\t{array[i]}");
     }
 Console.WriteLine();
 }
